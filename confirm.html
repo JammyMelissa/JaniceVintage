@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0">
+    <title>JANICE VINTAGE CONFIRM PAGE</title>
+    <meta name="descripiton" contnt="Attire for the Janice Vintage junkies">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet"　type="text/css" href="css/base.css">
+    <!-- jQueryファイル読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/confirm.js"></script>
+    <!--FontAwesome読み込み-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+  </head>
+
+  <body id="confirm-pagetop">
+    <div class="wrapper">
+      <!--header-->
+      <header>
+        <!-- メニュー -->
+        <div class="items-title">
+          <a href="items.html">
+          <h2>Janice Vintage</h2>
+          <p>-ONLINE STORE-</p>
+          </a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li class=head-menu><a href="items.html">HOME</a></li>
+          </ul>
+          <ul>
+            <li class=head-menu><a href="access.html">ACCESS</a></li>
+          </ul>
+          <ul>
+            <li class=head-menu><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <!--main-->
+      <main>
+        <div class="cart-process confirm-process">
+          <ul class="p-list">
+            <li>
+              <span class="p-flow">1</span>
+              <br>
+              <br>
+              <p>カート中身</p>
+            </li>
+            <li>
+              <span class="p-flow">2</span>
+              <br>
+              <br>
+              <p>お客様情報</p>
+            </li>
+            <li>
+              <span class="p-flow p-active">3</span>
+              <br>
+              <br>
+              <p>ご注文内容確認</p>
+            </li>
+            <li>
+              <span class="p-flow">4</span>
+              <br>
+              <br>
+              <p>完了</p>
+            </li>
+          </ul>
+        </div>
+        <div class="conf-info">
+          <p>内容をご確認ください</p>
+          <ul class="conf-list">
+          </ul>
+        </div>
+        <div class="cart-btn">
+          <form class="cart-form1" action="done.html" method="post">
+            <button class="donebtn" type="submit">完了画面へ</button>
+          </form>
+          <form class="cart-form2" action="customer.html" method="post">
+            <button type="submit">戻る</button>
+          </form>
+        </div>
+      </main>
+      <!--footer-->
+      <footer>
+        <small class="copy">&copy; Janice Vintage</small>
+      </footer>
+    </div><!--wrapper-->
+  </body>
+
+</html>

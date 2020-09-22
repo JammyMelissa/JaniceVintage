@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0">
+    <title>JANICE VINTAGE CUSTOMER PAGE</title>
+    <meta name="descripiton" contnt="Attire for the Janice Vintage junkies">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet"　type="text/css" href="css/base.css">
+    <!-- jQueryファイル読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/myscript.js"></script>
+    <!--FontAwesome読み込み-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+  </head>
+
+  <body id="customr-pagetop">
+    <div class="wrapper">
+      <!--header-->
+      <header>
+        <!-- メニュー -->
+        <div class="items-title">
+          <a href="items.html">
+          <h2>Janice Vintage</h2>
+          <p>-ONLINE STORE-</p>
+          </a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li class=head-menu><a href="items.html">HOME</a></li>
+          </ul>
+          <ul>
+            <li class=head-menu><a href="access.html">ACCESS</a></li>
+          </ul>
+          <ul>
+            <li class=head-menu><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <!--main-->
+      <main>
+        <div class="cart-process">
+          <ul class="p-list">
+            <li>
+              <span class="p-flow">1</span>
+              <br>
+              <br>
+              <p>カート中身</p>
+            </li>
+            <li>
+              <span class="p-flow p-active">2</span>
+              <br>
+              <br>
+              <p>お客様情報</p>
+            </li>
+            <li>
+              <span class="p-flow">3</span>
+              <br>
+              <br>
+              <p>ご注文内容確認</p>
+            </li>
+            <li>
+              <span class="p-flow">4</span>
+              <br>
+              <br>
+              <p>完了</p>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <form id="cst-form">
+        <div class="cst-info">
+          <label class="label" for="con1">Name</label>
+          <input class="c-text" id="con1" type="text" name="username" autocomplete="off" autocorrect="off" autocapitalize="off">
+        </div>
+        <div class="cst-info">
+          <label class="label" for="con2">Home address</label>
+          <textarea class="c-tarea" id="con2" name="address" autocomplete="address-level1"></textarea>
+        </div>
+        <div class="cst-info">
+          <label class="label" for="con3">Tel</label>
+          <input class="c-num" id="con3" type="tel" name="tel" autocomplete="off" autocorrect="off" autocapitalize="off">
+        </div>
+        <div class="cst-info">
+          <label class="label" for="con4">Mail</label>
+          <input class="c-email" id="con4" type="email" name="mail" autocomplete="email">
+        </div>
+        <div class="cst-info">
+          <p class="label">Payment methods</p>
+          <div class="inp">
+            <input id="pay1" type="radio" name="payment" value="クレジットカード" checked><label for="pay1">クレジットカード</label>
+            <input id="pay2" type="radio" name="payment" value="コンビニ支払い"><label for="pay2">コンビニ支払い</label>
+            <input id="pay3" type="radio" name="payment" value="代引き"><label for="pay3">代引き</label><br>
+          </div>
+        </div>
+      </form>
+      <div class="cart-btn">
+        <form class="cart-form1" action="confirm.html" method="post">
+          <button class="cst-btn" type="submit">確認画面へ</button>
+        </form>
+        <form class="cart-form2" action="cart.html" method="post">
+          <button type="submit">戻る</button>
+        </form>
+      </div>
+      <!--footer-->
+      <footer>
+        <small class="copy">&copy; Janice Vintage</small>
+      </footer>
+    </div><!--wrapper-->
+  </body>
+
+</html>

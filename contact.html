@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0">
+    <title>JANICE VINTAGE CONTACT</title>
+    <meta name="descripiton" contnt="Attire for the Janice Vintage junkies">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet"　type="text/css" href="css/base.css">
+    <!-- jQueryファイル読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/myscript.js"></script>
+    <!--FontAwesome読み込み-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!--
+      header
+      -->
+      <header>
+        <!-- メニュー -->
+        <div class="items-title">
+          <a href="items.html">
+          <h2>Janice Vintage</h2>
+          <p>-ONLINE STORE-</p>
+          </a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li class=head-menu><a href="items.html">HOME</a></li>
+          </ul>
+          <ul>
+            <li class=head-menu><a href="access.html">ACCESS</a></li>
+          </ul>
+          <ul>
+            <li class=head-menu><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <!-- 買い物かご -->
+        <div id="cart">
+          <a href="cart.html"><img class="cart-img" src="img/_i_icon_00122_icon_001221.svg" alt="買い物かご"></a>
+        </div>
+      </header>
+
+      <main>
+        <form class="contact-form" action="contact2.html" method="post">
+          <div class="form-g">
+            <input required id="name" type="text" name="name1" placeholder="Name">
+            <p class="hide-msg">名前を入力してください</p>
+          </div>
+          <div class="form-g">
+            <input required id="email" type="email" name="e-mail" placeholder="Email">
+            <p class="hide-msg">メールアドレスを入力してください</p>
+          </div>
+          <div class="form-g">
+            <textarea required id="contents" name="contents" placeholder="Contents"></textarea>
+            <p class="hide-msg">お問い合わせ内容を入力してください</p>
+          </div>
+          <button id="button" type="submit" name="button">Send Message</button>
+        </form>
+      </main>
+
+      <footer>
+        <small class="copy">&copy; Janice Vintage</small>
+      </footer>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0">
+    <title>JANICE VINTAGE ITEMS</title>
+    <meta name="descripiton" contnt="Attire for the Janice Vintage junkies">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet"　type="text/css" href="css/base.css">
+    <!-- jQueryファイル読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/myscript.js"></script>
+    <!--FontAwesome読み込み-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+  </head>
+
+  <body id="pagetop">
+    <div class="wrapper">
+      <!--header-->
+        <header>
+          <!-- メニュー -->
+          <div class="items-title">
+            <a href="items.html">
+            <h2>Janice Vintage</h2>
+            <p>-ONLINE STORE-</p>
+            </a>
+          </div>
+          <div class="menu">
+            <ul>
+              <li class=head-menu><a href="items.html">HOME</a></li>
+            </ul>
+            <ul>
+              <li class=head-menu><a href="access.html">ACCESS</a></li>
+            </ul>
+            <ul>
+              <li class=head-menu><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <!-- 買い物かご -->
+          <div id="cart">
+            <a href="cart.html"><img class="cart-img" src="img/_i_icon_00122_icon_001221.svg" alt="買い物かご"></a>
+          </div>
+        </header>
+
+        <!--main-->
+
+        <!-- アイテム一欄 -->
+        <main class="attire">
+          <div class="item js-modal-open">
+            <img class="lsquare" src="img/items/1f.jpg" alt="緑のシャツ">
+            <p>Green blouse &emsp;¥6300</p>
+          </div>
+          <div class="modal js-modal">
+            <div class="modal-bg"></div>
+            <div class="modal-content js-modal-content">
+              <div class="modal-left"> <!-- modal-left -->
+                <ul>
+                  <li><img class="slide" src="img/items/1f.jpg" alt="緑のシャツ"></li>
+                  <li><img class="slide" src="img/items/1b.jpg" alt="緑のシャツ裏"></li>
+                </ul>
+                <div class="next">
+                  <i class="fas fa-arrow-alt-circle-right fa-1x"></i>
+                </div>
+                <div class="prev">
+                  <i class="fas fa-arrow-alt-circle-left fa-1x"></i>
+                </div>
+              </div> <!-- modal-left -->
+              <div class="modal-right"> <!-- modal-right -->
+                <p class=item-name>Green blouse &emsp;¥6300</p>
+                <br>
+                <p class="detail">
+                &emsp;Condition「B」
+                <br>
+                &emsp;全体的にシルク独特のスレあり
+                <br>
+                <br>
+                <br>
+                <table class="size">
+                  <caption>Size</caption>
+                  <thead>
+                    <tr>
+                      <th>着丈</th>
+                      <th>身幅</th>
+                      <th>袖丈</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>73cm</td>
+                      <td>60cm</td>
+                      <td>55cm</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br>
+                <br>
+                <br>
+                <small>
+                *Attention*
+                <br>
+                Janice Vintageの商品はすべてクリーニング済です
+                </small>
+                </p><!-- detail -->
+                <form id="form1" action="cart.html" method="post"><!-- 買い物かご -->
+                  <button type="submit" class="btn1" data-id="1" data-item="Green blouse" data-price="6300"><strong>カートに入れる</strong></button>
+                </form>
+                <form id="form2" action="contact.html" method="post"><!-- お問い合わせ -->
+                  <button type="submit" class="btn2"><strong>お問い合わせ</strong></button>
+                </form>
+              </div> <!-- modal-right -->
+              <div class="modal-close">
+                <a href="#" class="js-modal-close">✕</a>
+              </div>
+            </div> <!-- modal-content -->
+          </div> <!-- modal -->
+
+          <div class="item js-modal-open">
+            <img class="lsquare" src="img/items/3f.jpg" alt="ブルーベロアアウター">
+            <p>Bird printed top &emsp;¥4500</p>
+          </div>
+          <div class="modal js-modal">
+            <div class="modal-bg"></div>
+            <div class="modal-content js-modal-content">
+              <div class="modal-left"> <!-- modal-left -->
+                <ul>
+                  <li><img class="slide" src="img/items/3f.jpg" alt="ブルーベロアアウター"></li>
+                  <li><img class="slide" src="img/items/3b.jpg" alt="ブルーベロアアウター裏"></li>
+                </ul>
+                <div class="next">
+                  <i class="fas fa-arrow-alt-circle-right fa-1x"></i>
+                </div>
+                <div class="prev">
+                  <i class="fas fa-arrow-alt-circle-left fa-1x"></i>
+                </div>
+              </div> <!-- modal-left -->
+              <div class="modal-right">
+                <p class=item-name>Bird printed top &emsp;¥4500</p>
+                <br>
+                <p class="detail">
+                  &emsp;Condition「B」
+                <br>
+                  &emsp;首元に数カ所ほつれあり
+                <br>
+                <br>
+                <br>
+                <table class="size">
+                  <caption>Size</caption>
+                  <thead>
+                    <tr>
+                      <th>着丈</th>
+                      <th>身幅</th>
+                      <th>袖丈</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>52cm</td>
+                      <td>41cm</td>
+                      <td>62cm</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br>
+                <br>
+                <br>
+                <small>
+                *Attention*
+                <br>
+                Janice Vintageの商品はすべてクリーニング済です
+                </small>
+              </p><!-- detail -->
+              <form id="form1" action="cart.html" method="post"><!-- 買い物かご -->
+                <button type="submit" class="btn1" data-id="2" data-item="Bird printed top" data-price="4500"><strong>カートに入れる</strong></button>
+              </form>
+              <form id="form2" action="contact.html" method="post"><!-- お問い合わせ -->
+                <button type="submit" class="btn2"><strong>お問い合わせ</strong></button>
+              </form>
+            </div> <!-- modal-right -->
+            <div class="modal-close">
+              <a href="#" class="js-modal-close">✕</a>
+            </div>
+          </div> <!-- modal-content -->
+        </div> <!-- modal -->
+
+        <div class="item js-modal-open">
+          <img class="square" src="img/items/6scarf.jpg" alt="トラ柄スカーフ">
+          <p>Tiger scarf &emsp;¥2800</p>
+        </div>
+        <div class="modal js-modal">
+          <div class="modal-bg"></div>
+          <div class="modal-content js-modal-content">
+            <div class="modal-left square-m"> <!-- modal-left -->
+              <ul>
+                <li><img class="slide" src="img/items/6scarf.jpg" alt="トラ柄スカーフ"></li>
+              </ul>
+            </div> <!-- modal-left -->
+            <div class="modal-right"><!-- modal-right -->
+              <p class=item-name>Tiger scarf &emsp;¥2800</p>
+              <br>
+              <p class="detail">
+                <p>&emsp;Condition「A」</p>
+                &emsp;長さ180cm
+                <br>
+                <br>
+                <br>
+                <br>
+                <small>
+                *Attention*
+                <br>
+                Janice Vintageの商品はすべてクリーニング済です
+                </small>
+              </p><!-- detail -->
+              <form id="form1" action="cart.html" method="post"><!-- 買い物かご -->
+                <button type="submit" class="btn1" data-id="3" data-item="Tiger scarf" data-price="2800"><strong>カートに入れる</strong></button>
+              </form>
+              <form id="form2" action="contact.html" method="post"><!-- お問い合わせ -->
+                <button type="submit" class="btn2"><strong>お問い合わせ</strong></button>
+              </form>
+            </div> <!-- modal-right -->
+            <div class="modal-close">
+              <a href="#" class="js-modal-close">✕</a>
+            </div>
+          </div> <!-- modal-content -->
+        </div> <!-- modal -->
+
+      <div class="item js-modal-open">
+        <img class="lsquare" src="img/items/4f.jpg" alt="チューリップニット">
+        <p>Tulip printed knit &emsp;¥8000</p>
+      </div>
+      <div class="modal js-modal">
+        <div class="modal-bg"></div>
+        <div class="modal-content js-modal-content">
+          <div class="modal-left"> <!-- modal-left -->
+            <ul>
+              <li><img class="slide" src="img/items/4f.jpg" alt="チューリップニット"></li>
+              <li><img class="slide" src="img/items/4b.jpg" alt="チューリップニット"></li>
+            </ul>
+            <div class="next">
+              <i class="fas fa-arrow-alt-circle-right fa-1x"></i>
+            </div>
+            <div class="prev">
+              <i class="fas fa-arrow-alt-circle-left fa-1x"></i>
+            </div>
+          </div> <!-- modal-left -->
+          <div class="modal-right"><!-- modal-right -->
+            <p class=item-name>Tulip printed knit&emsp;¥8000</p>
+            <br>
+            <p class="detail">
+            &emsp;Condition「A 〜 B」
+            <br>
+            &emsp;少し裾にヨレあり
+            <br>
+            <br>
+            <br>
+              <table class="size">
+                <caption>Size</caption>
+                <thead>
+                  <tr>
+                    <th>着丈</th>
+                    <th>身幅</th>
+                    <th>袖丈</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>67cm</td>
+                    <td>45cm</td>
+                    <td>62cm</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <br>
+              <br>
+              <small>
+              *Attention*
+              <br>
+              Janice Vintageの商品はすべてクリーニング済です
+              </small>
+            </p><!-- detail -->
+            <form id="form1" action="cart.html" method="post"><!-- 買い物かご -->
+              <button type="submit" class="btn1" data-id="4" data-item="Tulip printed knit" data-price="8000"><strong>カートに入れる</strong></button>
+            </form>
+            <form id="form2" action="contact.html" method="post"><!-- お問い合わせ -->
+              <button type="submit" class="btn2"><strong>お問い合わせ</strong></button>
+            </form>
+          </div> <!-- modal-right -->
+          <div class="modal-close">
+            <a href="#" class="js-modal-close">✕</a>
+          </div>
+        </div> <!-- modal-content -->
+      </div> <!-- modal -->
+
+      <div class="item js-modal-open">
+        <img class="lsquare" src="img/items/5f.jpg" alt="龍ガウン">
+        <p>Dragon gown &emsp;¥6500</p>
+      </div>
+      <div class="modal js-modal">
+        <div class="modal-bg"></div>
+        <div class="modal-content js-modal-content">
+          <div class="modal-left"> <!-- modal-left -->
+            <ul>
+              <li><img class="slide" src="img/items/5f.jpg" alt="龍ガウン"></li>
+              <li><img class="slide" src="img/items/5b.jpg" alt="龍ガウン"></li>
+            </ul>
+            <div class="next">
+              <i class="fas fa-arrow-alt-circle-right fa-1x"></i>
+            </div>
+            <div class="prev">
+              <i class="fas fa-arrow-alt-circle-left fa-1x"></i>
+            </div>
+          </div> <!-- modal-left -->
+          <div class="modal-right"><!-- modal-right -->
+            <p class=item-name>Dragon gown &emsp;¥6500</p>
+            <br>
+            <p class="detail">
+            &emsp;Condition「A」
+              <br>
+              <br>
+              <br>
+              <table class="size">
+                <caption>Size</caption>
+                <thead>
+                  <tr>
+                    <th>着丈</th>
+                    <th>身幅</th>
+                    <th>袖丈</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>85cm</td>
+                    <td>48cm</td>
+                    <td>40cm</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <br>
+              <br>
+              <small>
+              *Attention*
+              <br>
+              Janice Vintageの商品はすべてクリーニング済です
+              </small>
+            </p><!-- detail -->
+            <form id="form1" action="cart.html" method="post"><!-- 買い物かご -->
+              <button type="submit" class="btn1" data-id="5" data-item="Dragon gown" data-price="6500"><strong>カートに入れる</strong></button>
+            </form>
+            <form id="form2" action="contact.html" method="post"><!-- お問い合わせ -->
+              <button type="submit" class="btn2"><strong>お問い合わせ</strong></button>
+            </form>
+          </div> <!-- modal-right -->
+          <div class="modal-close">
+            <a href="#" class="js-modal-close">✕</a>
+          </div>
+        </div> <!-- modal-content -->
+      </div> <!-- modal -->
+
+      <div class="item js-modal-open">
+        <img class="lsquare" src="img/items/7f.jpg" alt="白のワンピース">
+        <p>White dress &emsp;¥10000</p>
+      </div>
+      <div class="modal js-modal">
+        <div class="modal-bg"></div>
+        <div class="modal-content js-modal-content">
+          <div class="modal-left"> <!-- modal-left -->
+            <ul>
+              <li><img class="slide" src="img/items/7f.jpg" alt="白のワンピース"></li>
+              <li><img class="slide" src="img/items/7b.jpg" alt="白のワンピース"></li>
+            </ul>
+            <div class="next">
+              <i class="fas fa-arrow-alt-circle-right fa-1x"></i>
+            </div>
+            <div class="prev">
+              <i class="fas fa-arrow-alt-circle-left fa-1x"></i>
+            </div>
+          </div> <!-- modal-left -->
+          <div class="modal-right"><!-- modal-right -->
+            <p class=item-name>White dress &emsp;¥10000</p>
+            <br>
+            <p class="detail">
+            &emsp;Condition「A」
+              <br>
+              <br>
+              <br>
+              <table class="size">
+                <caption>Size</caption>
+                <thead>
+                  <tr>
+                    <th>着丈</th>
+                    <th>身幅</th>
+                    <th>袖丈</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>121cm</td>
+                    <td>40cm</td>
+                    <td>30cm</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <br>
+              <br>
+              <small>
+              *Attention*
+              <br>
+              Janice Vintageの商品はすべてクリーニング済です
+              </small>
+            </p><!-- detail -->
+            <form id="form1" action="cart.html" method="post"><!-- 買い物かご -->
+              <button type="submit" class="btn1" data-id="6" data-item="White dress" data-price="10000"><strong>カートに入れる</strong></button>
+            </form>
+            <form id="form2" action="contact.html" method="post"><!-- お問い合わせ -->
+              <button type="submit" class="btn2"><strong>お問い合わせ</strong></button>
+            </form>
+          </div> <!-- modal-right -->
+          <div class="modal-close">
+            <a href="#" class="js-modal-close">✕</a>
+          </div>
+        </div> <!-- modal-content -->
+      </div> <!-- modal -->
+
+      <div class="item js-modal-open">
+        <img class="lsquare" src="img/items/8f.jpg" alt="茶色パンツ">
+        <p>Brown pants &emsp;¥4500</p>
+      </div>
+      <div class="modal js-modal">
+        <div class="modal-bg"></div>
+        <div class="modal-content js-modal-content">
+          <div class="modal-left"> <!-- modal-left -->
+            <ul>
+              <li><img class="slide" src="img/items/8f.jpg" alt="茶色パンツ"></li>
+              <li><img class="slide" src="img/items/8b.jpg" alt="茶色パンツ"></li>
+            </ul>
+            <div class="next">
+              <i class="fas fa-arrow-alt-circle-right fa-1x"></i>
+            </div>
+            <div class="prev">
+              <i class="fas fa-arrow-alt-circle-left fa-1x"></i>
+            </div>
+          </div> <!-- modal-left -->
+          <div class="modal-right"><!-- modal-right -->
+            <p class=item-name>Brown pants &emsp;¥4500</p>
+            <br>
+            <p class="detail">
+            &emsp;Condition「B」
+            <br>
+            &emsp;全体的に色褪せあり
+            <br>
+            <br>
+            <br>
+              <table class="size">
+                <caption>Size</caption>
+                <thead>
+                  <tr>
+                    <th>着丈</th>
+                    <th>ヒップ</th>
+                    <th>股上</th>
+                    <th>股下</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>103cm</td>
+                    <td>45cm</td>
+                    <td>74cm</td>
+                    <td>34cm</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <br>
+              <br>
+              <small>
+              *Attention*
+              <br>
+              Janice Vintageの商品はすべてクリーニング済です
+              </small>
+            </p><!-- detail -->
+            <form id="form1" action="cart.html" method="post"><!-- 買い物かご -->
+              <button type="submit" class="btn1" data-id="7" data-item="Brown pants" data-price="4500"><strong>カートに入れる</strong></button>
+            </form>
+            <form id="form2" action="contact.html" method="post"><!-- お問い合わせ -->
+              <button type="submit" class="btn2"><strong>お問い合わせ</strong></button>
+            </form>
+          </div> <!-- modal-right -->
+          <div class="modal-close">
+            <a href="#" class="js-modal-close">✕</a>
+          </div>
+        </div> <!-- modal-content -->
+      </div> <!-- modal -->
+
+      <div class="item js-modal-open">
+        <img class="lsquare" src="img/items/9f.jpg" alt="黒ノースリーブワンピ">
+        <p>Sleeveless dress &emsp;¥8000</p>
+      </div>
+      <div class="modal js-modal">
+        <div class="modal-bg"></div>
+        <div class="modal-content js-modal-content">
+          <div class="modal-left"> <!-- modal-left -->
+            <ul>
+              <li><img class="slide" src="img/items/9f.jpg" alt="黒ノースリーブワンピ"></li>
+              <li><img class="slide" src="img/items/9b.jpg" alt="黒ノースリーブワンピ"></li>
+            </ul>
+            <div class="next">
+              <i class="fas fa-arrow-alt-circle-right fa-1x"></i>
+            </div>
+            <div class="prev">
+              <i class="fas fa-arrow-alt-circle-left fa-1x"></i>
+            </div>
+          </div> <!-- modal-left -->
+          <div class="modal-right"><!-- modal-right -->
+            <p class=item-name>Sleeveless dress &emsp;¥8000</p>
+            <br>
+            <p class="detail">
+            &emsp;Condition「B 〜 C」
+            <br>
+            &emsp;首元に数カ所ほつれあり
+            <br>
+            &emsp;裾の部分にほつれあり
+            <br>
+            <br>
+            <br>
+              <table class="size">
+                <caption>Size</caption>
+                <thead>
+                  <tr>
+                    <th>着丈</th>
+                    <th>身幅</th>
+                    <th>ウエスト</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>98cm</td>
+                    <td>40cm</td>
+                    <td>38cm</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <br>
+              <small>
+              *Attention*
+              <br>
+              Janice Vintageの商品はすべてクリーニング済です
+              </small>
+            </p><!-- detail -->
+            <form id="form1" action="cart.html" method="post"><!-- 買い物かご -->
+              <button type="submit" class="btn1" data-id="8" data-item="Sleeveless dress" data-price="8000"><strong>カートに入れる</strong></button>
+            </form>
+            <form id="form2" action="contact.html" method="post"><!-- お問い合わせ -->
+              <button type="submit" class="btn2"><strong>お問い合わせ</strong></button>
+            </form>
+          </div> <!-- modal-right -->
+          <div class="modal-close">
+            <a href="#" class="js-modal-close">✕</a>
+          </div>
+        </div> <!-- modal-content -->
+      </div> <!-- modal -->
+
+      <div class="item js-modal-open">
+        <img class="lsquare" src="img/items/10f.jpg" alt="ドットサテンパンツ">
+        <p>Polka dot pants &emsp;¥4500</p>
+      </div>
+      <div class="modal js-modal">
+        <div class="modal-bg"></div>
+        <div class="modal-content js-modal-content">
+          <div class="modal-left"> <!-- modal-left -->
+            <ul>
+              <li><img class="slide" src="img/items/10f.jpg" alt="ドットサテンパンツ"></li>
+              <li><img class="slide" src="img/items/10b.jpg" alt="ドットサテンパンツ"></li>
+            </ul>
+            <div class="next">
+              <i class="fas fa-arrow-alt-circle-right fa-1x"></i>
+            </div>
+            <div class="prev">
+              <i class="fas fa-arrow-alt-circle-left fa-1x"></i>
+            </div>
+          </div> <!-- modal-left -->
+          <div class="modal-right"><!-- modal-right -->
+            <p class=item-name>Polka dot pants &emsp;¥4500</p>
+            <br>
+            <p class="detail">
+            &emsp;Condition「B」
+            <br>
+            &emsp;ウエストゴムの部分にヨレあり
+            <br>
+            <br>
+            <br>
+              <table class="size">
+                <caption>Size</caption>
+                <thead>
+                  <tr>
+                    <th>着丈</th>
+                    <th>身幅</th>
+                    <th>股上</th>
+                    <th>股下</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>73cm</td>
+                    <td>60cm</td>
+                    <td>55cm</td>
+                    <td>33cm</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <br>
+              <br>
+              <small>
+              *Attention*
+              <br>
+              Janice Vintageの商品はすべてクリーニング済です
+              </small>
+            </p><!-- detail -->
+            <form id="form1" action="cart.html" method="post"><!-- 買い物かご -->
+              <button type="submit" class="btn1" data-id="9" data-item="Polka dot pants" data-price="4500"><strong>カートに入れる</strong></button>
+            </form>
+            <form id="form2" action="contact.html" method="post"><!-- お問い合わせ -->
+              <button type="submit" class="btn2"><strong>お問い合わせ</strong></button>
+            </form>
+          </div> <!-- modal-right -->
+          <div class="modal-close">
+            <a href="#" class="js-modal-close">✕</a>
+          </div>
+        </div> <!-- modal-content -->
+      </div> <!-- modal -->
+      <div class="item js-modal-open">
+        <img class="square" src="img/items/2dish.jpg" alt="緑の皿">
+        <p>Green glass plates &emsp;¥4200</p>
+      </div>
+      <div class="modal js-modal">
+        <div class="modal-bg"></div>
+        <div class="modal-content js-modal-content">
+          <div class="modal-left square-m"> <!-- modal-left -->
+            <ul>
+              <li><img class="slide" src="img/items/2dish.jpg" alt="緑のガラス皿"></li>
+            </ul>
+          </div> <!-- modal-left -->
+          <div class="modal-right"><!-- modal-right -->
+          <p class=item-name>Green glass plates &emsp;¥4200</p>
+          <br>
+          <p class="detail">
+            <p>&emsp;Condition「A」</p>
+            &emsp;2枚セット
+            <br>
+            <br>
+            <br>
+            <br>
+            <small>
+            *Attention*
+            <br>
+            この製品はハンドメイドのため、サイズ・デザインに個体差がございます
+            <br>
+            ご了承くださいませ
+            </small>
+          </p><!-- detail -->
+          <form id="form1" action="cart.html" method="post"><!-- 買い物かご -->
+            <button type="submit" class="btn1" data-id="10" data-item="Green glass plates" data-price="4200"><strong>カートに入れる</strong></button>
+          </form>
+          <form id="form2" action="contact.html" method="post"><!-- お問い合わせ -->
+            <button type="submit" class="btn2"><strong>お問い合わせ</strong></button>
+          </form>
+        </div> <!-- modal-right -->
+        <div class="modal-close">
+          <a href="#" class="js-modal-close">✕</a>
+        </div>
+      </div> <!-- modal-content -->
+    </div> <!-- modal -->
+
+    <div class="item js-modal-open">
+      <img class="square" src="img/items/11.jpg" alt="青色花瓶">
+      <p>Blue vase &emsp;¥3500</p>
+    </div>
+    <div class="modal js-modal">
+      <div class="modal-bg"></div>
+      <div class="modal-content js-modal-content">
+        <div class="modal-left square-m"> <!-- modal-left -->
+          <ul>
+            <li><img class="slide" src="img/items/11.jpg" alt="青色花瓶"></li>
+          </ul>
+        </div> <!-- modal-left -->
+      <div class="modal-right"><!-- modal-right -->
+          <p class=item-name>Blue vase &emsp;¥3500</p>
+          <br>
+          <p class="detail">
+            <p>&emsp;Condition「A」</p>
+            &emsp;1個ずつの販売
+            <br>
+            <br>
+            <br>
+            <br>
+            <small>
+            *Attention*
+            <br>
+            この製品はハンドメイドのため、サイズ・デザインに個体差がございます
+            <br>
+            ご了承くださいませ
+            </small>
+          </p><!-- detail -->
+          <form id="form1" action="cart.html" method="post"><!-- 買い物かご -->
+            <button type="submit" class="btn1" data-id="11" data-item="Blue vase" data-price="3500"><strong>カートに入れる</strong></button>
+          </form>
+          <form id="form2" action="contact.html" method="post"><!-- お問い合わせ -->
+            <button type="submit" class="btn2"><strong>お問い合わせ</strong></button>
+          </form>
+        </div> <!-- modal-right -->
+        <div class="modal-close">
+          <a href="#" class="js-modal-close">✕</a>
+        </div>
+      </div> <!-- modal-content -->
+    </div> <!-- modal -->
+
+   </main>
+
+  <!--footer-->
+   <footer>
+      <div class="r-pagetop js-pagetop">
+        <a href="#pagetop"><i class="fas fa-arrow-up"></i></a>
+      </div>
+      <small class="copy">&copy; Janice Vintage</small>
+   </footer>
+  </div><!--wrapper-->
+ </body>
+
+</html>
